@@ -6,6 +6,7 @@
     <title><%= title %></title>
   </head>
   <body>
+    <%- include('navBar') %>
     <h1>Welcome to the Mini Message Board</h1>
     <% messages.forEach(message => { %>
     <p>User: <%= message.user %></p>
